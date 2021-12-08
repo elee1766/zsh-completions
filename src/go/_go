@@ -674,8 +674,6 @@ _go() {
             ${_test_binary_flags[@]} \
             ${_test_profile_flags[@]} \
             '*: :_go_packages'
-
-          _alternative ':build flags:_build_flags'
           ;;
 
         tool)
